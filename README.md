@@ -13,8 +13,11 @@
   
   (4)能維護timer events(Linked List)
     a.insert
+    
     b.delete
+    
     c.dump->sorted by time
+    
     d.update
     
   (5)有watch dog持續監看鬧鐘程式
