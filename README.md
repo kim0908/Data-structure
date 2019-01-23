@@ -1,7 +1,6 @@
 # Data-structure
 
-1.
-寫出神經網路程式( Neural Network ) 
+1.寫出神經網路程式( Neural Network ) 
 
 2.Alarm
   開發鬧鐘程式
