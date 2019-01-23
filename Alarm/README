@@ -1,0 +1,7 @@
+Compile : 一共有兩個檔，alarm.c以及 shell.sh，用makefile來幫助整理，compile可以輸入make，即可compile alarm.c變成alarm.o。
+
+執行：輸入./alarm 即可執行，會有settime以及events兩個選項，settime是可以直接設定時間，events是維護鬧鐘的各項事情。
+
+
+Watch dog : 要啟動watch dog我使用shell scripes，首先輸入make shell.o，
+即會執行，開啟另一個終端機，使用ps aux來看目前所有工作項目，找尋到 alarm此項目的pid後，kill 此項目pid，回到原來的終端機察看，10秒後會重啟此鬧鐘程式。
